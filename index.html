@@ -30,77 +30,58 @@
     body{
         font-family: 'Noto Sans TC', sans-serif;
         margin: 0;
-        /* background-attachment: fixed;
-        background-size: cover; */
-        z-index: 3;
-    }
-    .con{
-        background-image:url(images/background.jpg);
-        background-repeat: repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: 100%;        
-        height:100%;
-        width: 100%;
     }
 
 </style>
 <body>
 
     <!-- 主頁面 -->
-    <div data-role="page" id="page00">
+    <div data-role="page" id="page00" class="bg">
         <div data-role="header">
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="content"  class="con">
-                <div data-role="content" data-position="fixed" >
-                    <div data-role="navbar">
-                    <ul>
-                        <li><a href="#page01" data-icon="bullets">第一週年</a></li>
-                        <li><a href="#page02" data-icon="clock">第二週年</a></li>
-                        <li><a href="#page03" data-icon="bullets">第三週年</a></li>
-                        <li><a href="#page04" data-icon="clock" data-transition="slidedown">第四週年</a></li>
-                    </ul>
-                    </div>
-                </div>
+        <h1>恭賀傳說對決四週年</h1>
 
-                <div data-role="main" class="ui-content">
-                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                        <h4>第一週年</h4>
-                        <ul data-role="listview">
-                        <li><a href="#page01">詳細資料</a></li>
-                        </ul>
-                    </div>
-                </div>
+        <img src="images/background.jpg">
 
-                <div data-role="main" class="ui-content">
-                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                        <h4>第二週年</h4>
-                        <ul data-role="listview">
-                        <li><a href="#page02">詳細資料</a></li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div data-role="main" class="ui-content">
-                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                        <h4>第三週年</h4>
-                        <ul data-role="listview">
-                        <li><a href="#page03">詳細資料</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div data-role="main" class="ui-content">
-                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                        <h4>第四週年</h4>
-                        <ul data-role="listview">
-                        <li><a href="#page04">詳細資料</a></li>
-                        </ul>
-                    </div>
-                </div>      
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <h4>第一週年</h4>
+            <ul data-role="listview">
+            <li><a href="#page01">詳細資料</a></li>
+            </ul>
         </div>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <h4>第二週年</h4>
+            <ul data-role="listview">
+            <li><a href="#page02">詳細資料</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <h4>第三週年</h4>
+            <ul data-role="listview">
+            <li><a href="#page03">詳細資料</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <h4>第四週年</h4>
+            <ul data-role="listview">
+            <li><a href="#page04">詳細資料</a></li>
+            </ul>
+        </div>
+    </div>      
+        
             
         <div data-role="footer" data-position="fixed">
             <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
@@ -111,32 +92,35 @@
 
 
     <!--第一分頁-->
-    <div data-role="page" id="page01">
+    <div data-role="page" id="page01" class="bg">
         <div data-role="header">
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="bgtext">
                 <h1>第一週年</h1>
                 <p>有三大消息及福利</p>
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="background" data-theme="b" data-content-theme="a">
                 <h4>福利一</h4>
+                <img src="images/一週年img.jpg">
                 <p>
-               「 生日福袋 」抽 Samsung Galaxy Note 8限量聯名機
+               「 生日福袋 」抽 Samsung Galaxy Note 8限量聯名機 活動期間累計簽到7日可獲得「生日福袋」，生日福袋打開隨機獲得「Samsung Galaxy Note 8道具」或集字活動道具「生」、「日」、「快」、「樂」其中之一
+
+               「Samsung Galaxy Note 8道具」可兌換 Samsung Galaxy Note 8 限量聯名機，共七支！
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利二</h4>
                 <p>
-                慶生經驗大加倍
+                慶生經驗大加倍，活動期間經典競技對戰結束後經驗加成提升200%！
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利三</h4>
                 <p>
-                審判書兌換英雄
+                審判書兌換英雄，印記開放召喚期間收集8枚不同的英雄印記，可於活動網頁點擊【兌換審判書】按鈕獲得道具《審判書》，並於遊戲內使用《審判書》兌換永久英雄七選一和魔法水晶 x5。
                 </p>
             </div>
 
@@ -147,47 +131,81 @@
             </div>
 
             <a href="#page00">主頁面</a>
-            <a href="#page02">第二週年</a>
         </div>
+
+        <div data-role="content" data-position="fixed" >
+            <div data-role="navbar">
+            <ul>
+                <li><a href="#page01" data-icon="bullets">第一週年</a></li>
+                <li><a href="#page02" data-icon="clock">第二週年</a></li>
+                <li><a href="#page03" data-icon="bullets">第三週年</a></li>
+                <li><a href="#page04" data-icon="clock">第四週年</a></li>
+            </ul>
+            </div>
+        </div>
+
             <div data-role="footer" data-position="fixed">
                 <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
             </div><!-- /footer -->
         </div>
 
         <!--第二分頁-->
-    <div data-role="page" id="page02">
+    <div data-role="page" id="page02" class="bg">
         <div data-role="header">
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="bgtext">
                 <h1>第二週年</h1>
                 <p>有四大消息及福利</p>
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="background" data-theme="b" data-content-theme="a">
                 <h4>福利一</h4>
+                <img src="images/二週年img.jpg">
                 <p>
-                二周年 生日快樂！對戰抽iPhoneXS
+                二周年 生日快樂！對戰抽iPhoneXS，經典競技或排位賽獲勝，100%掉落周年慶驚喜禮物1個，當日無掉落上限。
                 </p>
             </div>
 
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="font" data-theme="b" data-content-theme="a">
                 <h4>福利二</h4>
+                <img src="images/彩票.jpg">
                 <p>
-                慶周年！累計簽到領歡樂彩票
+                慶周年！累計簽到領歡樂彩票 活動期間每日登入累積簽到，可領取對應獎勵。
+
+                <h1>累積簽到 1 天：歡樂彩票 x2</h1>
+
+                <h1>累積簽到 2 天：歡樂彩票 x2</h1> 
+                    
+                <h1>累積簽到 3 天：歡樂彩票 x2</h1>    
+                    
+                <h1>累積簽到 4 天：歡樂彩票 x1</h1>   
+                    
+                <h1>累積簽到 5 天：歡樂彩票 x1</h1>   
+                    
+                <h1>累積簽到 6 天：歡樂彩票 x1</h1>   
+                    
+                <h1>累積簽到 7 天：歡樂彩票 x2</h1>    
+                    
+                <h1>累積簽到 8 天：歡樂彩票 x2</h1>
+                                 
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利三</h4>
+                <img src="images/加星卡.png">
                 <p>
-                生日快樂！登入領戰敗加星卡
+                生日快樂！登入領戰敗加星卡，活動當日登入簽到，可領取戰敗加星卡 2 張。
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利四</h4>
+                <img src="images/門票.jpg">
                 <p>
-                生日快樂！對戰抽iPhoneXS
+                慶周年！登入領樂園門票，活動期間登入簽到1次，可獲得一張樂園門票，10/13當日開放兌換獎勵。
+            
+                
                 </p>
             </div>
 
@@ -198,8 +216,19 @@
             </div>
 
             <a href="#page00">主頁面</a>
-            <a href="#page03">第三週年</a>
         </div>
+
+        <div data-role="content" data-position="fixed" >
+            <div data-role="navbar">
+            <ul>
+                <li><a href="#page01" data-icon="bullets">第一週年</a></li>
+                <li><a href="#page02" data-icon="clock">第二週年</a></li>
+                <li><a href="#page03" data-icon="bullets">第三週年</a></li>
+                <li><a href="#page04" data-icon="clock">第四週年</a></li>
+            </ul>
+            </div>
+        </div>
+
             <div data-role="footer" data-position="fixed">
                 <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
             </div><!-- /footer -->
@@ -207,46 +236,88 @@
     </div>
 
     <!--第三分頁-->
-    <div data-role="page" id="page03">
+    <div data-role="page" id="page03" class="bg">
         <div data-role="header">
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="bgtext">
                 <h1>第三週年</h1>
                 <p>有五大消息及福利</p>
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="font" data-theme="b" data-content-theme="a">
                 <h4>福利一</h4>
+                <img src="images/三週年img.jpg">
                 <p>
-                【歡慶聖焰】累積登入送好禮
+                【歡慶聖焰】累積登入送好禮，活動期間，每日登入累積簽到，可領取對應獎勵。
+
+                <h1>簽到 1 天：聖焰節邀請卡*1</h1>
+
+                <h1>簽到 2 天：奧義碎片*500</h1>
+                    
+                <h1>簽到 3 天：豪華造型體驗箱</h1>
+                    
+                <h1>簽到 4 天：星幣*1500</h1>
+                    
+                <h1>簽到 5 天：100點造型抵用券</h1>
+                    
+                <h1>簽到 6 天：魔法水晶*1</h1>
+                    
+                <h1>簽到 7 天：排位守護卡禮包</h1>
+                    
+                <h1>簽到 8 天：舞蹈動作3選1</h1>
+
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利二</h4>
                 <p>
-                【歡慶聖焰】帶亞格尼面具慶週年
+                【歡慶聖焰】帶亞格尼面具慶週年，活動期間，達成指定條件，可領取獎勵。
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>福利三</h4>
                 <p>
-                【歡慶聖焰】拿道具免費換造型
+                【歡慶聖焰】拿道具免費換造型，活動期間內，活動獲得的聖焰節道具可於此兌換獎勵。聖焰節邀請卡+亞格尼的面具可兌換「造型7選1選擇卡」和「造型5選1選擇卡」
                 </p>
             </div>
 
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="font" data-theme="b" data-content-theme="a">
                 <h4>福利四</h4>
                 <p>
-                【傳說週年】完成任務拿慶生蛋糕
+                【傳說週年】完成任務拿慶生蛋糕，活動期間內，每日參加經典競技或排位賽達成指定活動條件，蒐集三週年蛋糕兌換獎勵。
+
+                <h1>每日簽到：三週年蛋糕*5</h1>
+
+                <h1>參加對戰1場：三週年蛋糕*2</h1>   
+                    
+                <h1>參加對戰2場：三週年蛋糕*1</h1>  
+                    
+                <h1>對戰獲勝1場：三週年蛋糕*1</h1>   
+                    
+                <h1> 組隊對戰1場：三週年蛋糕*1</h1>
+
                 </p>
             </div>
 
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" class="font" data-theme="b" data-content-theme="a">
                 <h4>福利五</h4>
                 <p>
-                【傳說週年】慶生蛋糕換週年特效
+                【傳說週年】慶生蛋糕換週年特效，活動期間內，蒐集指定數量的三週年蛋糕兌換相對應獎勵。
+
+                <h1>15個三週年蛋糕：週年慶加速（7天） （限換一次）</h1>
+
+                <h1>15個三週年蛋糕：週年慶回城（7天） （限換一次）</h1>
+
+                <h1>15個三週年蛋糕：週年慶擊殺（7天） （限換一次）</h1>
+
+                <h1>8個三週年蛋糕：英雄專屬碎片寶箱-5碎片*1 （限換三次）</h1>
+
+                <h1>8個三週年蛋糕：造型專屬碎片寶箱-5碎片*1 （限換三次）</h1>
+
+                <h1>5個三週年蛋糕：寶石*5 （限換五次）</h1>
+
                 </p>
             </div>
 
@@ -257,8 +328,19 @@
             </div>
 
             <a href="#page00">主頁面</a>
-            <a href="#page04">第四週年</a>
         </div>
+
+        <div data-role="content" data-position="fixed" >
+            <div data-role="navbar">
+            <ul>
+                <li><a href="#page01" data-icon="bullets">第一週年</a></li>
+                <li><a href="#page02" data-icon="clock">第二週年</a></li>
+                <li><a href="#page03" data-icon="bullets">第三週年</a></li>
+                <li><a href="#page04" data-icon="clock">第四週年</a></li>
+            </ul>
+            </div>
+        </div>
+
             <div data-role="footer" data-position="fixed">
                 <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
             </div><!-- /footer -->
@@ -266,30 +348,33 @@
     </div>
 
     <!--第四分頁-->
-    <div data-role="page" id="page04">
+    <div data-role="page" id="page04" class="bg">
         <div data-role="header">
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="bgtext">
                 <h1>第四週年</h1>
                 <p>有四大消息及福利</p>
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>福利一</h4>
+                <h4>消息一</h4>
+                <img src="images/四週年img.jpg">
+                <p>
+                傳說對決生日快樂!
+                </p>
+            </div>
+
+            <div data-role="collapsible" data-theme="b" data-content-theme="a">
+                <h4>福利二</h4>
+                <img src="images/hero.jpg">
                 <p>
                 新英雄「永夜之魘 洛里昂」免費拿
                 </p>
             </div>
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>消息二</h4>
-                <p>
-                神秘聯動合作開啟
-                </p>
-            </div>
-
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>消息三</h4>
+                <img src="images/bg-2.jpg">
                 <p>
                 10/31 傳說日 傳說之巔模式開啟
                 </p>
@@ -297,6 +382,7 @@
 
             <div data-role="collapsible" data-theme="b" data-content-theme="a">
                 <h4>消息四</h4>
+                <img src="images/bg.jpg">
                 <p>
                 傳說女團選拔賽
                 </p>
@@ -310,6 +396,18 @@
 
             <a href="#page00">主頁面</a>
         </div>
+
+        <div data-role="content" data-position="fixed" >
+            <div data-role="navbar">
+            <ul>
+                <li><a href="#page01" data-icon="bullets">第一週年</a></li>
+                <li><a href="#page02" data-icon="clock">第二週年</a></li>
+                <li><a href="#page03" data-icon="bullets">第三週年</a></li>
+                <li><a href="#page04" data-icon="clock">第四週年</a></li>
+            </ul>
+            </div>
+        </div>
+
             <div data-role="footer" data-position="fixed">
                 <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
             </div><!-- /footer -->
